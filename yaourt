@@ -19,7 +19,28 @@ plasma5-applets-weather-widget
 conky-colors-git
 conky-manager
 
-# web & network
+# network
 networkmanager-openconnect
 networkmanager-pptp
 networkmanager-strongswan
+
+# i18n
+fcitx
+kcm-fcitx
+fcitx-gtk2
+fcitx-gtk3
+fcitx-sogoupinyin
+
+# fonts
+wqy-bitmapfont
+wqy-microhei
+wqy-zenhei
+ttf-arphic-ukai
+ttf-arphic-uming
+adobe-source-han-sans-cn-fonts
+
+# artwork
+archlinux-artwork
+archlinux-themes-sddm
+archlinux-wallpaper
+deepin-wallpapers
