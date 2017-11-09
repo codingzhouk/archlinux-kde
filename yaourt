@@ -1,0 +1,25 @@
+# Desktop environment & basic tools
+plasma-meta
+kde-applications-meta
+xorg
+xorg-drivers
+
+# tools
+mesa-demos
+xclip
+d-feet
+nvidia-utils
+
+# plugins
+plasma5-applet-awesome-widgets
+plasma5-applets-thermal-monitor-git
+plasma5-applets-weather-widget
+
+# beautify
+conky-colors-git
+conky-manager
+
+# web & network
+networkmanager-openconnect
+networkmanager-pptp
+networkmanager-strongswan
