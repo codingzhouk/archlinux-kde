@@ -9,6 +9,7 @@ mesa-demos
 xclip
 d-feet
 nvidia-utils
+nvidia-settings
 
 # plugins
 plasma5-applet-awesome-widgets
