@@ -25,13 +25,11 @@ networkmanager-pptp
 networkmanager-strongswan
 
 # i18n
-fcitx-im
-kcm-fcitx
-fcitx-sogoupinyin
-fcitx-googlepinyin
-fcitx-cloudpinyin
-fcitx-libpinyin
-fcitx-sunpinyin
+fcitx5-chinese-addons-git
+fcitx5-git
+fcitx5-gtk-git
+fcitx5-qt-git
+kcm-fcitx5-git
 
 # fonts
 wqy-bitmapfont
