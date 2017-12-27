@@ -3,18 +3,23 @@ plasma-meta
 kde-applications-meta
 xorg
 xorg-drivers
+mkinitcpio-docker-hooks
+systemd-sysvcompat
+linux
+nvidia
+nvidia-utils
+nvidia-settings
 
 # tools
 mesa-demos
 xclip
 d-feet
-nvidia-utils
-nvidia-settings
 
 # plugins
 plasma5-applet-awesome-widgets
 plasma5-applets-thermal-monitor-git
 plasma5-applets-weather-widget
+plasma-nm
 
 # beautify
 conky-colors-git
