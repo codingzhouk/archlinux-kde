@@ -11,4 +11,4 @@ RUN pacman -Sy --noconfirm archlinuxcn-keyring
 
 # install packages
 USER user
-RUN yaourt -Syua --noconfirm $(grep '^\w.*' /yaourt)
+RUN yaourt -Syu --noconfirm $(grep '^\w.*' /yaourt)
