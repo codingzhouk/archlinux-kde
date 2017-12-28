@@ -12,7 +12,7 @@ RUN pacman -Sy --noconfirm archlinuxcn-keyring
 
 # install packages
 USER user
-RUN  yaourt -Syua --noconfirm && yaourt -S --noconfirm $(grep '^\w.*' /yaourt) && rm /boot/*.img
+RUN  yaourt -Syua --noconfirm && yaourt -S --noconfirm $(grep '^\w.*' /yaourt) && sudo rm /boot/*.img
 
 # setting up services
 RUN systemctl enable sshd sddm NetworkManager
