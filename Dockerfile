@@ -5,6 +5,7 @@ COPY yaourt custom_repo.conf /
 COPY locale.gen /etc/locale.gen
 
 USER root
+RUN pacman -Syu --noconfirm base
 RUN cat custom_repo.conf >> /etc/pacman.conf
 RUN locale-gen
 RUN pacman -Sy --noconfirm archlinuxcn-keyring

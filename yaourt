@@ -4,8 +4,6 @@ kde-applications-meta
 xorg
 xorg-drivers
 mkinitcpio-docker-hooks
-systemd-sysvcompat
-linux
 nvidia
 nvidia-utils
 nvidia-settings
@@ -26,6 +24,7 @@ conky-colors-git
 conky-manager
 
 # network
+networkmanager
 networkmanager-openconnect
 networkmanager-pptp
 networkmanager-strongswan
