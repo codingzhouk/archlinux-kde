@@ -1,10 +1,8 @@
 # Desktop environment & basic tools
-openssh
 plasma-meta
 kde-applications-meta
 xorg
 xorg-drivers
-mkinitcpio-docker-hooks
 nvidia
 nvidia-utils
 nvidia-settings
@@ -34,7 +32,8 @@ networkmanager-strongswan
 fcitx5-chinese-addons-git
 fcitx5-git
 fcitx5-gtk-git
-fcitx5-qt-git
+fcitx5-qt4-git
+fcitx5-qt5-git
 kcm-fcitx5-git
 
 # fonts
