@@ -11,7 +11,8 @@ RUN pacman -Syu --noconfirm
 
 # install packages
 USER user
-RUN  yaourt -Syua --noconfirm && yaourt -S --noconfirm $(grep '^\w.*' /yaourt) && sudo rm /boot/*.img
+RUN  yaourt -Syua --noconfirm || true
+RUN for i in $(grep '^\w.*' /yaourt); do yaourt -S --noconfirm $i || true; done && sudo rm /boot/*.img
 
 USER root
 
