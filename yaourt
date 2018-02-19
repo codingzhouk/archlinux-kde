@@ -6,6 +6,8 @@ xorg-drivers
 nvidia
 nvidia-utils
 nvidia-settings
+intel-ucode
+exfat-utils
 
 # tools
 mesa-demos
