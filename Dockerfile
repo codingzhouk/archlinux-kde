@@ -1,9 +1,10 @@
 FROM zasdfgbnmsystem/basic
 
 # setup
-COPY yaourt startkde /
+COPY yaourt custom_repo.conf startkde /
 
 USER root
+RUN cat custom_repo.conf >> /etc/pacman.conf
 RUN pacman -Sy --noconfirm archlinuxcn-keyring
 RUN pacman -Syu --noconfirm
 
