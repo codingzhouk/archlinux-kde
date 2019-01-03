@@ -8,6 +8,7 @@ nvidia-utils
 nvidia-settings
 intel-ucode
 exfat-utils
+fwupd
 
 # tools
 mesa-demos
