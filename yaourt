@@ -8,6 +8,7 @@ nvidia-utils
 nvidia-settings
 intel-ucode
 exfat-utils
+ntfs-3g
 fwupd
 
 # tools
